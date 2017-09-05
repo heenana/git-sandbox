@@ -1,0 +1,107 @@
+Week 2 with Elias
+Day 1 - Git
+http://www.botoxforhair.net/keratin-treated-shampoo/
+Commits
+Branching/Merging
+Remotes
+History
+
+ls -a //shows hidden files and folders
+git verb obj adj
+git status //diff bw working copy and the head
+git commit -m "commit message"
+HEAD = current commit
+what was index = 
+git add path1 [...pathN]
+git log: shows current branch 
+--oneline 
+Untracked
+-node modules installed at build time -- dont want to track those things - leave these untracked 
+-metadata
+cd
+git init
+git status
+git add --all
+git status
+OR git add -all && git status //two commands in one line
+
+Working Directory -- Index -- HEAD
+
+COMMANDS
+ctrl+a / ctrl e: beginning/end of line
+ctrl+< / ctrl+>: move one work at a time
+ctrl+w delete a word at a time
+ctrl+r: search command history
+ls -l : vertical not horizontal display plus extra stuff (like aliases)
+ls subdir 
+ls / look at root dir
+pwd: tell you which directory youre in (print working directory)
+-r: remove a directory
+touch: update last modified date on file or create file if it doesnt exist
+~ : home directory (cd ~/project)
+!$ :  last argument to last command ('echo !$') //useful so dont have to retype path
+alias gs="git status", then run gs
+~/.bash_profile
+source ~/.bash_profile
+
+git log : display history of commits (each has id)
+git cat-file -p unique-ID :display contents of certain nodes
+
+git checkout path
+-resets files to match working copy of snapshot
+-will destroy uncommited changes
+-use this to abandon work and go back to HEAD
+-abandoning work -forget what i had out there, get me back to the head
+-make working copy look like head
+-will modify physical files if theve been edited
+-will restore physical files if theyve been deleted
+-not vise versa - physcial files whose logical files have been deleted just show up as untracked
+-more on checkout coming later
+
+git commit --amend
+-replaces the snapshot with the current staging area
+-modify, add, or remove anything - new snapshot
+-even if no index change, message updates
+-use freely, but only on last commit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
