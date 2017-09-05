@@ -95,6 +95,9 @@ Master
 git branch [name] : creates new branch
 git checkout branch-name : switchs to specified branch
 
+git checkout -b branch-name (better than git branch branch-name because it conncts to the branch)
+
+
 
 
 
