@@ -64,13 +64,36 @@ git commit --amend
 -even if no index change, message updates
 -use freely, but only on last commit
 
+git clean path
+-removes untracked files from path
+-wont actually delete without --force/-f
+-wont delete directories without -d
+-common form: git clean -df .
 
+git reset
+-changes where head points to 
+-may alter staging and working copy to get there
 
+git reset [commit] [path]
+-this form changes index to match commit
+-does opposite of git add (git rm more like git delete)
+-commit optional, defaults HEAD
+-path optional, interactive if omitted
+-used it to back out items from staging
 
+git reset --hard path
+-changes staging area AND working copy
+-will destroy all uncommitted changes
 
+Branches
+-branches are labels pointing at chains of commits
+Master
+-default branch is named master
+-primary, stable branch by convention
+-nothing special about it, except 1st commit has no parent
 
-
-
+git branch [name] : creates new branch
+git checkout branch-name : switchs to specified branch
 
 
 
