@@ -98,7 +98,16 @@ git checkout branch-name : switchs to specified branch
 git checkout -b branch-name (better than git branch branch-name because it conncts to the branch)
 
 
+<<<<<<< HEAD
 
+=======
+Merging - three types
+-Fast-forward
+->git merge bugFix
+
+git diff branch-name [anotherbranch]
+-lists diffs bw two branches
+>>>>>>> newWork
 
 
 
